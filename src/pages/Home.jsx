@@ -2,8 +2,16 @@ import React from "react";
 import styled from "styled-components";
 import mainCat from "../assets/mainCat.png";
 import { Button } from "react-bootstrap";
-
+import { useNavigate } from "react-router-dom";
 function Home() {
+
+  //! 페이지 이동
+  const navigate = useNavigate();
+
+  const handleClickBtn = () => {
+    navigate('/question')
+  }
+
   return (
     <Wrapper>
       <Header>집사 판별기</Header>
@@ -20,7 +28,7 @@ function Home() {
           ></img>
         </LogoImage>
         <Desc>나와 잘 맞는 냥이 찾기</Desc>
-        <Button type="button" className="btn btn-secondary">테스트 시작</Button>
+        <Button type="button" className="btn btn-secondary" onClick={handleClickBtn}>테스트 시작</Button>
       </Contents>
     </Wrapper>
   );
