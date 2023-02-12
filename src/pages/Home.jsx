@@ -31,7 +31,7 @@ function Home() {
           type="button"
           className="btn btn-secondary"
           onClick={handleClickBtn}
-          style={{ marginTop: "30px" }}
+          style={{ margin: "30px, 0" }}
         >
           테스트 시작
         </Button>
@@ -44,7 +44,7 @@ export default Home;
 
 const Wrapper = styled.div`
   background-color: pink;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   font-family: "Tenada";
 `;
