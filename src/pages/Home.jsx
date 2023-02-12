@@ -44,7 +44,7 @@ export default Home;
 
 const Wrapper = styled.div`
   background-color: pink;
-  height: 100%;
+  height: 100vh;
   width: 100%;
   font-family: "Tenada";
 `;

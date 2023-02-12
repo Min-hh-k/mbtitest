@@ -25,6 +25,7 @@ function Question() {
       setQuestionNo(questionNo + 1);
     } else {
       //mbti 도출식
+      //reduce와 substring을 활용하여  newScore의 score 값에 따라 id의 글자 추출
       const mbti = newScore.reduce(
         (acc, curr) =>
           acc +
