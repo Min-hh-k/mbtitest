@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import { ProgressBar, Button } from "react-bootstrap";
 import { QuestionData } from "../assets/data/questionData";
-import { useNavigate } from "react-router-dom";
+import { createSearchParams, useNavigate } from "react-router-dom";
 
 function Question() {
   const [questionNo, setQuestionNo] = useState(0);
@@ -20,12 +20,25 @@ function Question() {
     );
 
     setTotalScore(newScore);
-    console.log(totalScore);
 
     if (QuestionData.length !== questionNo + 1) {
       setQuestionNo(questionNo + 1);
     } else {
-      navigate("/result");
+      //mbti 도출식
+      const mbti = newScore.reduce(
+        (acc, curr) =>
+          acc +
+          (curr.score >= 2 ? curr.id.substring(0, 1) : curr.id.substring(1, 2)),
+        ""
+      );
+      console.log("mbti", mbti);
+      //결과 페이지 이동
+      navigate({
+        pathname: "/result",
+        search: `?${createSearchParams({
+          mbti: mbti,
+        })}`,
+      });
     }
   };
 

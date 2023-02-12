@@ -4,17 +4,16 @@ import mainCat from "../assets/mainCat.png";
 import { Button } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 function Home() {
-
   //! 페이지 이동
   const navigate = useNavigate();
 
   const handleClickBtn = () => {
-    navigate('/question')
-  }
+    navigate("/question");
+  };
 
   return (
     <Wrapper>
-      <Header>집사 판별기</Header>
+      <Header>😼 집사 판별기</Header>
 
       <Contents>
         <Title>너에게 맞는 냥이는 무엇인가?!</Title>
@@ -28,7 +27,14 @@ function Home() {
           ></img>
         </LogoImage>
         <Desc>나와 잘 맞는 냥이 찾기</Desc>
-        <Button type="button" className="btn btn-secondary" onClick={handleClickBtn}>테스트 시작</Button>
+        <Button
+          type="button"
+          className="btn btn-secondary"
+          onClick={handleClickBtn}
+          style={{ marginTop: "30px" }}
+        >
+          테스트 시작
+        </Button>
       </Contents>
     </Wrapper>
   );
@@ -40,7 +46,7 @@ const Wrapper = styled.div`
   background-color: pink;
   height: 100vh;
   width: 100%;
-  font-family: 'Tenada';
+  font-family: "Tenada";
 `;
 
 const Contents = styled.div`
@@ -68,4 +74,4 @@ const LogoImage = styled.div`
 const Desc = styled.div`
   font-size: 20px;
   margin-top: 20px;
-`
+`;
