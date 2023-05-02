@@ -1,10 +1,9 @@
 import React, { useEffect } from "react";
 import { Button } from "react-bootstrap";
 
-
 // Kakao 인식
 const { Kakao } = window;
-const KEY = process.env.REACT_APP_SHARE_KAKAO_KEY;
+// const key = process.env.REACT_APP_SHARE_KAKAO_KEY;
 
 function KakaoShareBtn({ data }) {
   const url = "https://mbtitestcat.netlify.app/";
@@ -15,7 +14,7 @@ function KakaoShareBtn({ data }) {
   useEffect(() => {
     Kakao.cleanup();
     // kakao js 키 받아오기
-    Kakao.init(KEY);
+    Kakao.init(process.env.REACT_APP_SHARE_KAKAO_KEY);
     // SDK 초기화 여부를 판단합니다.
     console.log(Kakao.isInitialized());
   }, []);

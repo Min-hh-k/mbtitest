@@ -34,7 +34,7 @@ export default function NameGpt() {
         });
 
         const data = await response.json();
-        console.log(data);
+        // console.log(data);
         // console.log(data.choices[0].text)
         //! data에서 답변 가져오기
         setResult(data.choices[0].text);
