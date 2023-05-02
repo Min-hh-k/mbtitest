@@ -13,10 +13,12 @@ function KakaoShareBtn({ data }) {
 
   useEffect(() => {
     Kakao.cleanup();
+
     // kakao js 키 받아오기
     Kakao.init(process.env.REACT_APP_SHARE_KAKAO_KEY);
-    // SDK 초기화 여부를 판단합니다.
-    console.log(Kakao.isInitialized());
+
+    // SDK 초기화 여부를 판단
+    // console.log(Kakao.isInitialized());
   }, []);
 
   const shareKakao = () => {
