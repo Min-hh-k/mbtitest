@@ -1,8 +1,9 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import { Button } from "react-bootstrap";
 import { useNavigate, useSearchParams } from "react-router-dom";
 import { resultData } from "../assets/data/resultData";
+import KakaoShareBtn from "../components/KakaoShareBtn";
 
 function Result() {
   //! 페이지 이동
@@ -13,7 +14,7 @@ function Result() {
   const mbti = searchParams.get("mbti");
 
   // 최종 도출한 결과 객체
-  const [resultDatas, setResultDatas] = React.useState({});
+  const [resultDatas, setResultDatas] = useState({});
 
   useEffect(() => {
     const result = resultData.find((s) => s.best === mbti);
@@ -46,10 +47,18 @@ function Result() {
         <ButtonGroup>
           <Button
             variant="secondary"
-            style={{ fontFamily: "LeeSeoYun" }}
             onClick={() => navigate("/")}
+            style={{ marginRight: "20px" }}
           >
-            테스트 다시시작하기
+            테스트 다시 시작하기
+          </Button>
+          <KakaoShareBtn data={resultDatas} />
+          <Button
+            variant="secondary"
+            onClick={() => navigate("/nameGpt")}
+            style={{ marginRight: "20px" }}
+          >
+            냥이 이름 생성하기
           </Button>
         </ButtonGroup>
       </Contents>
