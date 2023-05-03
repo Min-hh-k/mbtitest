@@ -24,18 +24,30 @@ https://mbticat.web.app
 
 </br>
 
-## 화면
+## 화면 🖥️
+</br>
 
-### 메인화면
-![image](https://user-images.githubusercontent.com/96058996/220124622-a15bc67a-8487-4e20-b21b-ef7efb951a3e.png)
+### 메인페이지
+<img src="https://user-images.githubusercontent.com/96058996/220124622-a15bc67a-8487-4e20-b21b-ef7efb951a3e.png" width="400" height="500">
 
-### mbti실행
-![mbti 작동시연](https://user-images.githubusercontent.com/96058996/235835249-39945d92-6946-4daf-b70f-4e7795077d8b.gif)
-### 결과화면
+</br>
+
+### mbti 실행페이지
+<img src="https://user-images.githubusercontent.com/96058996/235835249-39945d92-6946-4daf-b70f-4e7795077d8b.gif" width="400" height="500">
+
+</br>
+
+### 결과페이지
 <img src="https://user-images.githubusercontent.com/96058996/235834836-0664db01-63ed-4e9b-9797-4f15d19c5ca4.png" width="400" height="500">
 
+</br>
+
 ### 카카오톡 공유
-![카톡공유완료](https://user-images.githubusercontent.com/96058996/235835898-0f325deb-60c0-44bf-a491-11d8747abd64.png)
+<img src="https://user-images.githubusercontent.com/96058996/235835898-0f325deb-60c0-44bf-a491-11d8747abd64.png" width="400" height="500">
+
+</br>
 
 ### openAI 이름생성기
-![openAI 시연](https://user-images.githubusercontent.com/96058996/235835943-ec69ab04-7206-40b6-9f47-f92d9bdcf1f9.gif)
+<img src="https://user-images.githubusercontent.com/96058996/235835943-ec69ab04-7206-40b6-9f47-f92d9bdcf1f9.gif" width="400" height="500">
+
+
