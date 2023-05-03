@@ -6,9 +6,9 @@ const { Kakao } = window;
 // const key = process.env.REACT_APP_SHARE_KAKAO_KEY;
 
 function KakaoShareBtn({ data }) {
-  const url = "https://mbtitestcat.netlify.app/";
+  const url = "https://mbticat.web.app/";
 
-  // 결과창 url -> netlify 인식 오류 해결 위해 /public/_redirects 생성
+  // 결과창 url -> 인식 오류 해결 위해 /public/_redirects 생성
   const resultUrl = window.location.href;
 
   useEffect(() => {
