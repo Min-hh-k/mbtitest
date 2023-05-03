@@ -47,7 +47,7 @@ https://mbticat.web.app 🐱
 </br>
 
 ### 카카오톡 공유
-<img src="https://user-images.githubusercontent.com/96058996/235835898-0f325deb-60c0-44bf-a491-11d8747abd64.png" width="400" height="500">
+<img src="https://user-images.githubusercontent.com/96058996/235915626-d3d77540-fde5-4f18-9a98-fc416153e812.gif" width="400" height="500">
 
 </br>
 
