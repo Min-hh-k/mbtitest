@@ -1,16 +1,20 @@
 # mbtiTest cat!
 ## 배포링크 
-https://mbticat.web.app
+https://mbticat.web.app 🐱
 </br>파이어베이스 배포
 
+</br>
 
+## 프로젝트
+1. Js와 React를 배우며 활용한 간단한 1인 프로젝트 입니다.
+2. kakao, openAI develop을 사용하여 기능구현 했습니다.
 
 </br>
 
 ## 기능
 1. MBTI 테스트 실행
 2. 카카오톡 공유기능을 활용하여 링크공유 가능
-3. openAI - Product name generator API 활용하여 이름 생성 
+3. openAI - Product name generator API 활용하여 이름 생성 (Rest API / POST)
 
 </br>
 
