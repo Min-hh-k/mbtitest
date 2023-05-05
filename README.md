@@ -20,10 +20,13 @@ https://mbticat.web.app 🐱
 
 ## 사용스택
 
+<p>
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white"/>
 <img src="https://img.shields.io/badge/react-1572B6?style=for-the-badge&logo=react&logoColor=white"/>
 <img src="https://img.shields.io/badge/git-E34C26?style=for-the-badge&logo=git&logoColor=white">
 <img src="https://img.shields.io/badge/firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=white">
+</p>
+
 
 
 </br>
