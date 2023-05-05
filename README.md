@@ -6,7 +6,7 @@ https://mbticat.web.app 🐱
 </br>
 
 ## 프로젝트
-1. Js와 React를 배우며 활용한 간단한 1인 프로젝트 입니다.
+1. Js와 React를 배우며 활용한 간단한 1인 토이프로젝트 입니다.
 2. kakao, openAI develop을 사용하여 기능구현 했습니다.
 
 </br>
